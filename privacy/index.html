@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta
     name="description"
-    content="ShortsFree Guard 개인정보처리방침 / Privacy Policy"
+    content="ShortsFREE 개인정보처리방침 / Privacy Policy"
   >
-  <title>개인정보처리방침 | ShortsFree Guard</title>
+
+  <title>개인정보처리방침 | ShortsFREE</title>
 
   <style>
     * {
@@ -19,13 +21,14 @@
       background: #ffffff;
       color: #111111;
       font-family:
+        Pretendard,
+        "Noto Sans KR",
         -apple-system,
         BlinkMacSystemFont,
         "Segoe UI",
-        "Noto Sans KR",
         Arial,
         sans-serif;
-      line-height: 1.7;
+      line-height: 1.75;
     }
 
     .header {
@@ -33,7 +36,7 @@
     }
 
     .header-inner {
-      max-width: 820px;
+      max-width: 860px;
       margin: 0 auto;
       padding: 22px 24px;
       display: flex;
@@ -78,7 +81,7 @@
     }
 
     main {
-      max-width: 820px;
+      max-width: 860px;
       margin: 0 auto;
       padding: 64px 24px 80px;
     }
@@ -90,27 +93,17 @@
       letter-spacing: -1px;
     }
 
-    .subtitle {
-      margin: 0 0 8px;
-      color: #555555;
-      font-size: 16px;
-    }
-
-    .effective-date {
-      margin: 0 0 48px;
-      color: #777777;
-      font-size: 14px;
-    }
-
-    section {
-      margin-top: 44px;
-    }
-
     h2 {
       margin: 0 0 16px;
       font-size: 21px;
       line-height: 1.4;
       letter-spacing: -0.4px;
+    }
+
+    h3 {
+      margin: 26px 0 10px;
+      font-size: 17px;
+      line-height: 1.5;
     }
 
     p {
@@ -128,15 +121,20 @@
       margin: 7px 0;
     }
 
-    .permission {
-      margin: 18px 0;
-      color: #333333;
+    section {
+      margin-top: 46px;
     }
 
-    .permission strong {
-      display: block;
-      margin-bottom: 3px;
-      color: #111111;
+    .subtitle {
+      margin: 0 0 8px;
+      color: #555555;
+      font-size: 16px;
+    }
+
+    .effective-date {
+      margin: 0 0 48px;
+      color: #777777;
+      font-size: 14px;
     }
 
     .notice {
@@ -148,7 +146,17 @@
 
     .notice p {
       margin: 0;
+    }
+
+    .permission {
+      margin: 18px 0;
       color: #333333;
+    }
+
+    .permission strong {
+      display: block;
+      margin-bottom: 3px;
+      color: #111111;
     }
 
     a {
@@ -197,7 +205,7 @@
 
   <header class="header">
     <div class="header-inner">
-      <span class="brand">ShortsFree</span>
+      <span class="brand">ShortsFREE</span>
 
       <div class="language-switch" aria-label="Language">
         <button
@@ -220,6 +228,7 @@
     </div>
   </header>
 
+
   <main>
 
     <!-- ==================================================
@@ -231,26 +240,71 @@
       <h1>개인정보처리방침</h1>
 
       <p class="subtitle">
-        ShortsFree Guard는 사용자의 개인정보를 중요하게 생각합니다.
+        ShortsFREE는 사용자의 개인정보와 서비스 이용 데이터를 중요하게 생각합니다.
       </p>
 
       <p class="effective-date">
-        시행일: 2026년 9월 25일
+        시행일: 2026년 9월 27일
       </p>
 
       <p>
-        ShortsFree(이하 “서비스”)는 사용자의 개인정보를 중요하게 생각합니다.
-        본 개인정보처리방침은 브라우저 확장 프로그램
-        <strong>ShortsFree Guard</strong>가 어떤 정보를 처리하고,
-        해당 정보를 어떤 목적으로 사용하는지 설명합니다.
+        ShortsFREE(이하 “서비스”)는 ShortsFREE 데스크톱 애플리케이션,
+        ShortsFREE Guard 브라우저 확장 프로그램 및 관련 웹사이트를 통해
+        서비스를 제공합니다.
+      </p>
+
+      <p>
+        본 개인정보처리방침은 서비스 제공 과정에서 어떤 정보가 처리될 수 있으며,
+        해당 정보가 어떤 목적으로 사용되는지 설명합니다.
       </p>
 
 
+      <!-- 1 -->
+
       <section>
-        <h2>1. ShortsFree Guard가 처리하는 정보</h2>
+        <h2>1. 서비스에서 처리하는 정보</h2>
 
         <p>
-          ShortsFree Guard는 YouTube Shorts 사용 시간을 측정하고
+          ShortsFREE는 서비스 기능을 제공하기 위해 필요한 범위에서
+          다음과 같은 정보를 처리할 수 있습니다.
+        </p>
+
+        <h3>1.1 계정 및 인증 정보</h3>
+
+        <ul>
+          <li>서비스 로그인 및 계정 식별에 필요한 계정 정보</li>
+          <li>로그인 세션 및 인증 상태와 관련된 정보</li>
+          <li>사용자 계정을 구분하기 위한 내부 식별자</li>
+        </ul>
+
+        <p>
+          계정 인증 및 Cloud Sync 기능 제공을 위해
+          Supabase 기반의 인증 및 데이터 저장 기능을 사용할 수 있습니다.
+        </p>
+
+
+        <h3>1.2 기기 등록 정보</h3>
+
+        <p>
+          ShortsFREE는 계정별 기기 등록 및 서비스 이용 권한을 관리하기 위해
+          다음과 같은 정보를 처리할 수 있습니다.
+        </p>
+
+        <ul>
+          <li>설치 또는 기기를 구분하기 위한 임의의 식별자</li>
+          <li>사용 중인 운영체제 또는 플랫폼 정보</li>
+          <li>계정과 등록 기기 간의 연결 상태</li>
+        </ul>
+
+        <p>
+          현재 하나의 ShortsFREE 계정에는 최대 2대의 기기를 등록할 수 있습니다.
+        </p>
+
+
+        <h3>1.3 ShortsFREE Guard 관련 정보</h3>
+
+        <p>
+          ShortsFREE Guard는 YouTube Shorts 사용 시간을 측정하고
           사용자가 설정한 제한을 적용하기 위해 다음 정보를 처리할 수 있습니다.
         </p>
 
@@ -259,105 +313,177 @@
           <li>YouTube Shorts 시청 시간</li>
           <li>사용 날짜 및 측정 시각</li>
           <li>확장 프로그램 설치를 구분하기 위해 생성되는 임의의 식별자</li>
-          <li>ShortsFree 데스크톱 앱과 동기화하는 데 필요한 Shorts Guard 상태 정보</li>
+          <li>ShortsFREE 데스크톱 앱과 동기화하는 데 필요한 Shorts Guard 상태 정보</li>
         </ul>
 
         <div class="notice">
           <p>
-            ShortsFree Guard는 사용자의 이름, 이메일 주소, 비밀번호,
-            결제정보, 건강정보, 정확한 위치정보, 개인적인 메시지 등의 정보를
-            확장 프로그램을 통해 수집하지 않습니다.
+            ShortsFREE Guard 브라우저 확장 프로그램 자체는
+            사용자의 이름, 이메일 주소, 비밀번호, 결제정보,
+            건강정보, 정확한 위치정보 또는 개인적인 메시지의 내용을
+            수집하기 위한 목적으로 동작하지 않습니다.
           </p>
         </div>
+
+
+        <h3>1.4 생산성 및 집중 기능 관련 정보</h3>
+
+        <p>
+          사용자가 ShortsFREE의 생산성 기능을 사용하는 경우
+          다음과 같은 정보가 기기 또는 계정에 저장될 수 있습니다.
+        </p>
+
+        <ul>
+          <li>할 일(Todo) 및 루틴 정보</li>
+          <li>Pomodoro 관련 설정</li>
+          <li>완료된 집중 세션 및 집중 시간 기록</li>
+          <li>캘린더에 표시되는 집중 및 완료 기록</li>
+          <li>Shorts 사용 시간 및 관련 Guard 상태</li>
+          <li>서비스 설정 및 사용자 환경설정</li>
+        </ul>
+
+        <p>
+          진행 중인 타이머, 남은 시간, 일시정지 상태,
+          현재 집중 세션 및 Focus Mode 상태 등 일부 정보는
+          사용자의 기기에서만 처리될 수 있습니다.
+        </p>
       </section>
 
+
+      <!-- 2 -->
 
       <section>
         <h2>2. 정보 이용 목적</h2>
 
         <p>
-          처리되는 정보는 다음과 같은 ShortsFree Guard의 핵심 기능을
-          제공하기 위해서만 사용됩니다.
+          ShortsFREE가 처리하는 정보는 다음과 같은 서비스 기능 제공을 위해 사용됩니다.
         </p>
 
         <ul>
+          <li>사용자 로그인 및 계정 인증</li>
+          <li>계정과 등록 기기의 연결 및 관리</li>
           <li>YouTube Shorts 시청 여부 확인</li>
           <li>일일 Shorts 시청 시간 측정</li>
           <li>사용자가 설정한 Shorts 허용 시간 적용</li>
           <li>허용 시간 도달 시 Shorts 차단</li>
           <li>추가 시청 시간 기능 제공</li>
-          <li>ShortsFree 집중 모드와 연동한 Shorts 차단</li>
-          <li>ShortsFree 데스크톱 앱과 Shorts 사용 시간 및 Guard 상태 동기화</li>
+          <li>Focus Mode 및 Pomodoro와 연동한 Shorts 차단</li>
+          <li>Todo, Routine, Focus 및 Calendar 기능 제공</li>
+          <li>지원되는 서비스 데이터를 여러 기기에서 동기화</li>
+          <li>서비스 설정 및 이용 상태 유지</li>
+          <li>서비스 안정성 및 오류 대응</li>
         </ul>
 
         <p>
-          이러한 정보는 ShortsFree Guard의 기능 제공과 관련 없는 목적으로
-          사용하지 않습니다.
+          ShortsFREE는 서비스 제공과 관련 없는 목적으로
+          사용자의 데이터를 이용하지 않도록 노력합니다.
         </p>
       </section>
 
 
+      <!-- 3 -->
+
       <section>
-        <h2>3. 정보의 저장 및 전송</h2>
+        <h2>3. 로컬 저장</h2>
 
         <p>
-          ShortsFree Guard는 Shorts 사용 시간, 사용 날짜 및 확장 프로그램의
-          임의 식별자 등 기능 수행에 필요한 일부 정보를 브라우저의 로컬 저장소에
-          저장할 수 있습니다.
+          ShortsFREE는 일부 정보를 사용자의 기기 내부에 저장합니다.
         </p>
 
         <p>
-          또한 ShortsFree 데스크톱 앱이 실행되고 있는 경우,
-          Shorts 사용 시간과 Guard 상태 등의 정보를 사용자의 기기에서 실행되는
-          로컬 서버(127.0.0.1)를 통해 ShortsFree 데스크톱 앱과
-          주고받을 수 있습니다.
+          데스크톱 앱은 계정별 로컬 저장소를 사용하며,
+          앱 설정, 인증 상태, 생산성 데이터 및 서비스 이용에 필요한
+          일부 정보가 사용자의 기기에 저장될 수 있습니다.
         </p>
 
         <p>
-          이 통신은 사용자의 기기 내부에서 ShortsFree Guard와
-          ShortsFree 데스크톱 앱을 연동하기 위한 목적으로 사용됩니다.
+          ShortsFREE Guard 역시 Shorts 사용 시간, 사용 날짜,
+          확장 프로그램의 임의 식별자 등 기능 수행에 필요한 일부 정보를
+          브라우저의 로컬 저장소에 저장할 수 있습니다.
+        </p>
+
+        <p>
+          이러한 로컬 데이터는 ShortsFREE의 기능 제공,
+          오프라인 상태에서의 서비스 이용,
+          이후 Cloud Sync를 위한 목적으로 사용될 수 있습니다.
         </p>
       </section>
 
 
+      <!-- 4 -->
+
       <section>
-        <h2>4. 제3자 제공 및 판매</h2>
+        <h2>4. Cloud Sync</h2>
 
         <p>
-          ShortsFree Guard는 확장 프로그램을 통해 처리하는 사용자 데이터를
-          제3자에게 판매하지 않습니다.
+          ShortsFREE는 로그인한 사용자가 여러 기기에서 기록을 이어서 사용할 수 있도록
+          계정 기반 Cloud Sync 기능을 제공합니다.
         </p>
 
         <p>
-          또한 사용자 데이터를 광고, 신용평가 또는 대출 등의 목적으로
-          사용하지 않습니다.
+          Cloud Sync 대상에는 서비스 구현 상태에 따라 다음 정보가 포함될 수 있습니다.
+        </p>
+
+        <ul>
+          <li>Todo 및 Routine 정보</li>
+          <li>Pomodoro 기본 설정</li>
+          <li>완료된 Focus 세션 및 집중 결과</li>
+          <li>Shorts 사용 시간 및 account-wide Guard 관련 정보</li>
+        </ul>
+
+        <p>
+          반면 현재 진행 중인 타이머, 남은 시간, 일시정지 상태,
+          현재 집중 세션 및 Focus Mode 등 일부 실시간 상태는
+          기기별 로컬 상태로 처리될 수 있습니다.
+        </p>
+
+        <p>
+          네트워크 연결이 일시적으로 불가능한 경우
+          일부 변경사항은 로컬에 먼저 저장된 뒤
+          네트워크 연결이 복구되면 동기화될 수 있습니다.
         </p>
       </section>
 
 
+      <!-- 5 -->
+
       <section>
-        <h2>5. 웹사이트 접근 권한</h2>
+        <h2>5. 브라우저 확장 프로그램과 데스크톱 앱 간 통신</h2>
 
         <p>
-          ShortsFree Guard는 핵심 기능을 제공하기 위해
-          YouTube 웹사이트에 접근합니다.
+          ShortsFREE Guard와 ShortsFREE 데스크톱 앱은
+          Shorts Guard 기능을 제공하기 위해 서로 정보를 주고받을 수 있습니다.
         </p>
 
         <p>
-          해당 접근 권한은 YouTube Shorts 사용 여부를 확인하고,
-          시청 시간을 측정하며, 사용자가 설정한 제한 또는 집중 모드 상태에 따라
-          Shorts 차단 기능을 제공하기 위해 사용됩니다.
+          데스크톱 앱이 실행 중인 경우,
+          Shorts 사용 시간과 Guard 상태 등의 정보는
+          사용자의 기기에서 실행되는 로컬 서버
+          <strong>127.0.0.1</strong>을 통해 교환될 수 있습니다.
         </p>
 
         <p>
-          ShortsFree Guard는 이러한 목적과 관련 없는 웹사이트 이용 정보를
-          수집하기 위해 해당 권한을 사용하지 않습니다.
+          이 통신은 동일한 기기에서 실행되는
+          ShortsFREE Guard와 ShortsFREE 데스크톱 앱을 연결하기 위한 것입니다.
         </p>
       </section>
 
 
+      <!-- 6 -->
+
       <section>
-        <h2>6. 브라우저 권한 사용</h2>
+        <h2>6. 브라우저 확장 프로그램 권한</h2>
+
+        <p>
+          ShortsFREE Guard는 핵심 기능 제공을 위해
+          필요한 범위에서 브라우저 권한을 사용합니다.
+        </p>
+
+        <div class="permission">
+          <strong>tabs</strong>
+          브라우저에서 YouTube Shorts 이용 상태를 확인하고
+          Shorts Guard 기능을 제공하는 데 필요한 범위에서 사용합니다.
+        </div>
 
         <div class="permission">
           <strong>scripting</strong>
@@ -367,71 +493,185 @@
 
         <div class="permission">
           <strong>storage</strong>
-          Shorts 사용 시간, 날짜, 확장 프로그램의 임의 식별자 등
+          Shorts 사용 시간, 날짜, 확장 프로그램 식별자 등
           기능 제공에 필요한 상태를 사용자의 브라우저에 저장하기 위해 사용합니다.
         </div>
 
         <div class="permission">
           <strong>YouTube 호스트 권한</strong>
           YouTube Shorts 페이지를 감지하고
+          Shorts 사용 시간을 측정하며
           Shorts Guard 기능을 제공하기 위해 사용합니다.
         </div>
 
         <div class="permission">
           <strong>localhost 호스트 권한</strong>
-          사용자의 기기에서 실행되는 ShortsFree 데스크톱 앱과
+          사용자의 기기에서 실행되는 ShortsFREE 데스크톱 앱과
           Shorts 사용 시간 및 Guard 상태를 동기화하기 위해 사용합니다.
+        </div>
+
+        <p>
+          ShortsFREE Guard는 위 목적과 관련 없는 웹사이트 이용 정보를
+          수집하기 위해 해당 권한을 사용하지 않습니다.
+        </p>
+      </section>
+
+
+      <!-- 7 -->
+
+      <section>
+        <h2>7. 외부 서비스 이용</h2>
+
+        <p>
+          ShortsFREE는 서비스 운영을 위해 외부 서비스 제공자의 기능을
+          사용할 수 있습니다.
+        </p>
+
+        <h3>Supabase</h3>
+
+        <p>
+          ShortsFREE는 사용자 인증, 계정 기반 데이터 저장 및
+          Cloud Sync 등의 기능을 제공하기 위해 Supabase를 사용할 수 있습니다.
+        </p>
+
+        <p>
+          외부 서비스 제공자가 처리하는 정보에는
+          해당 제공자의 개인정보처리방침 및 서비스 정책이 적용될 수 있습니다.
+        </p>
+
+        <div class="notice">
+          <p>
+            결제 기능은 현재 별도 구축 단계에 있습니다.
+            실제 결제 서비스 제공자와 결제 데이터 처리 방식이 확정되는 경우,
+            본 개인정보처리방침도 이에 맞게 업데이트됩니다.
+          </p>
         </div>
       </section>
 
 
+      <!-- 8 -->
+
       <section>
-        <h2>7. 원격 코드</h2>
+        <h2>8. 제3자 제공 및 판매</h2>
 
         <p>
-          ShortsFree Guard는 원격 서버에서 JavaScript 또는 WebAssembly 등의
-          실행 코드를 다운로드하여 실행하지 않습니다.
+          ShortsFREE는 사용자 데이터를 판매하지 않습니다.
         </p>
 
         <p>
-          확장 프로그램의 실행 코드는 배포되는 확장 프로그램 패키지에
-          포함되어 있습니다.
+          또한 사용자 데이터를 광고, 신용평가, 대출 등의 목적으로
+          사용하지 않습니다.
         </p>
-      </section>
-
-
-      <section>
-        <h2>8. 데이터 보안</h2>
 
         <p>
-          ShortsFree는 ShortsFree Guard가 처리하는 정보를 핵심 기능 제공에
-          필요한 범위로 제한하고, 불필요한 사용자 정보를 수집하지 않도록
-          노력합니다.
+          서비스 제공을 위해 필요한 외부 서비스 제공자가
+          데이터를 처리하는 경우에는
+          서비스 제공에 필요한 범위에서만 처리하도록 합니다.
         </p>
       </section>
 
 
+      <!-- 9 -->
+
       <section>
-        <h2>9. 개인정보처리방침 변경</h2>
+        <h2>9. 원격 코드</h2>
 
         <p>
-          ShortsFree Guard의 기능 또는 데이터 처리 방식이 변경되는 경우
+          ShortsFREE Guard는 원격 서버에서 JavaScript,
+          WebAssembly 또는 기타 실행 코드를 다운로드하여
+          실행하는 방식으로 동작하지 않습니다.
+        </p>
+
+        <p>
+          브라우저 확장 프로그램의 실행 코드는
+          배포되는 확장 프로그램 패키지에 포함됩니다.
+        </p>
+      </section>
+
+
+      <!-- 10 -->
+
+      <section>
+        <h2>10. 데이터 보관 및 삭제</h2>
+
+        <p>
+          ShortsFREE는 서비스 기능 제공에 필요한 범위에서
+          로컬 및 계정 기반 데이터를 보관할 수 있습니다.
+        </p>
+
+        <p>
+          로컬 데이터는 사용자의 기기 또는 브라우저에 저장될 수 있으며,
+          애플리케이션 또는 확장 프로그램의 제거,
+          로컬 데이터 삭제 등의 방식에 따라 삭제될 수 있습니다.
+        </p>
+
+        <p>
+          Cloud Sync 데이터 및 계정 데이터의 구체적인 보관 기간,
+          계정 삭제 요청 및 서버 데이터 삭제 절차는
+          정식 서비스 운영 정책이 확정되는 과정에서
+          본 개인정보처리방침에 추가 또는 변경될 수 있습니다.
+        </p>
+
+        <p>
+          관련 법령에 따라 일정 기간 보관이 필요한 정보가 있는 경우에는
+          해당 법령이 요구하는 범위에서 처리될 수 있습니다.
+        </p>
+      </section>
+
+
+      <!-- 11 -->
+
+      <section>
+        <h2>11. 데이터 보안</h2>
+
+        <p>
+          ShortsFREE는 서비스 제공에 필요한 범위로
+          데이터 처리를 제한하고,
+          불필요한 개인정보를 수집하지 않도록 노력합니다.
+        </p>
+
+        <p>
+          인증 정보와 계정 데이터가 다른 사용자와
+          부적절하게 공유되지 않도록
+          계정 단위의 데이터 분리 및 접근 통제를 적용하도록 설계합니다.
+        </p>
+
+        <p>
+          또한 브라우저 확장 프로그램과 데스크톱 앱 간 통신,
+          인증 및 Cloud Sync 등 서비스의 보안 관련 영역은
+          정식 공개 전 지속적으로 검토 및 개선될 수 있습니다.
+        </p>
+      </section>
+
+
+      <!-- 12 -->
+
+      <section>
+        <h2>12. 개인정보처리방침 변경</h2>
+
+        <p>
+          ShortsFREE의 기능, 외부 서비스,
+          데이터 처리 방식 또는 관련 정책이 변경되는 경우
           본 개인정보처리방침도 변경될 수 있습니다.
         </p>
 
         <p>
-          중요한 변경사항이 있는 경우 적절한 방법을 통해 변경 내용을
-          안내할 수 있습니다.
+          중요한 변경사항이 있는 경우
+          웹사이트 또는 서비스 내 적절한 방법을 통해
+          변경 내용을 안내할 수 있습니다.
         </p>
       </section>
 
 
+      <!-- 13 -->
+
       <section>
-        <h2>10. 문의</h2>
+        <h2>13. 문의</h2>
 
         <p>
-          ShortsFree Guard의 개인정보 처리 및 본 개인정보처리방침과 관련된
-          문의는 아래 이메일을 통해 접수할 수 있습니다.
+          ShortsFREE의 개인정보 처리 및
+          본 개인정보처리방침에 관한 문의는
+          아래 이메일을 통해 접수할 수 있습니다.
         </p>
 
         <p>
@@ -454,28 +694,69 @@
       <h1>Privacy Policy</h1>
 
       <p class="subtitle">
-        ShortsFree Guard respects your privacy.
+        ShortsFREE respects your privacy and the data generated through your use of the service.
       </p>
 
       <p class="effective-date">
-        Effective date: September 25, 2026
+        Effective date: September 27, 2026
       </p>
 
       <p>
-        ShortsFree ("the Service") respects your privacy.
-        This Privacy Policy explains what information the
-        <strong>ShortsFree Guard</strong> browser extension processes
-        and how that information is used.
+        ShortsFREE ("the Service") provides the ShortsFREE desktop application,
+        the ShortsFREE Guard browser extension, and related website services.
+      </p>
+
+      <p>
+        This Privacy Policy explains what information may be processed
+        while providing the Service and how that information may be used.
       </p>
 
 
       <section>
-        <h2>1. Information Processed by ShortsFree Guard</h2>
+        <h2>1. Information Processed by ShortsFREE</h2>
 
         <p>
-          ShortsFree Guard may process the following information
-          to measure YouTube Shorts usage and enforce the viewing
-          limits configured by the user.
+          ShortsFREE may process the following information
+          to the extent necessary to provide its functionality.
+        </p>
+
+        <h3>1.1 Account and authentication information</h3>
+
+        <ul>
+          <li>Account information required to sign in and identify an account</li>
+          <li>Information related to login sessions and authentication status</li>
+          <li>Internal identifiers used to distinguish user accounts</li>
+        </ul>
+
+        <p>
+          ShortsFREE may use Supabase-based authentication and data storage
+          to provide account authentication and Cloud Sync.
+        </p>
+
+
+        <h3>1.2 Device registration information</h3>
+
+        <p>
+          ShortsFREE may process information required to register devices
+          and manage access associated with an account, including:
+        </p>
+
+        <ul>
+          <li>A randomly generated identifier used to distinguish an installation or device</li>
+          <li>Operating system or platform information</li>
+          <li>The relationship between an account and its registered devices</li>
+        </ul>
+
+        <p>
+          A ShortsFREE account currently supports registration of up to two devices.
+        </p>
+
+
+        <h3>1.3 ShortsFREE Guard information</h3>
+
+        <p>
+          ShortsFREE Guard may process the following information
+          to measure YouTube Shorts usage and enforce the limits configured by the user.
         </p>
 
         <ul>
@@ -483,106 +764,170 @@
           <li>YouTube Shorts viewing time</li>
           <li>Usage date and measurement time</li>
           <li>A randomly generated identifier used to distinguish extension installations</li>
-          <li>Shorts Guard state information required for synchronization with the ShortsFree desktop app</li>
+          <li>Shorts Guard state information required for synchronization with the ShortsFREE desktop app</li>
         </ul>
 
         <div class="notice">
           <p>
-            ShortsFree Guard does not collect the user's name, email address,
-            password, payment information, health information, precise location,
-            private messages, or similar personal information through the
-            browser extension.
+            The ShortsFREE Guard browser extension itself is not designed
+            to collect a user's name, email address, password,
+            payment information, health information, precise location,
+            or the contents of private messages.
           </p>
         </div>
-      </section>
 
 
-      <section>
-        <h2>2. Purpose of Information Processing</h2>
+        <h3>1.4 Productivity and focus information</h3>
 
         <p>
-          The information described above is used only to provide the
-          core functionality of ShortsFree Guard, including:
+          When users use ShortsFREE productivity features,
+          the following information may be stored on the device
+          or associated with the user's account:
         </p>
 
         <ul>
-          <li>Detecting YouTube Shorts usage</li>
-          <li>Measuring daily Shorts viewing time</li>
-          <li>Enforcing the Shorts viewing limit configured by the user</li>
-          <li>Blocking Shorts when the configured limit is reached</li>
-          <li>Providing the additional viewing time feature</li>
-          <li>Blocking Shorts in connection with ShortsFree Focus Mode</li>
-          <li>Synchronizing Shorts usage time and Guard state with the ShortsFree desktop app</li>
+          <li>Todo and Routine information</li>
+          <li>Pomodoro-related settings</li>
+          <li>Completed focus sessions and focus-time records</li>
+          <li>Focus and completion records displayed in Calendar</li>
+          <li>Shorts usage time and related Guard state</li>
+          <li>Service settings and user preferences</li>
         </ul>
 
         <p>
-          This information is not used for purposes unrelated to
-          providing ShortsFree Guard functionality.
+          Certain real-time states, such as the current timer,
+          remaining time, paused state, current focus session,
+          and Focus Mode state, may be processed only on the user's device.
         </p>
       </section>
 
 
       <section>
-        <h2>3. Information Storage and Transmission</h2>
+        <h2>2. Purposes of Processing</h2>
 
         <p>
-          ShortsFree Guard may store certain information required for its
-          functionality, such as Shorts usage time, usage date, and a randomly
-          generated extension identifier, in the browser's local storage.
+          ShortsFREE processes information to provide functions such as:
         </p>
 
-        <p>
-          When the ShortsFree desktop app is running, ShortsFree Guard may
-          exchange information such as Shorts usage time and Guard state
-          with the ShortsFree desktop app through a local server running
-          on the user's device at 127.0.0.1.
-        </p>
+        <ul>
+          <li>User login and account authentication</li>
+          <li>Connecting and managing registered devices</li>
+          <li>Detecting YouTube Shorts usage</li>
+          <li>Measuring daily Shorts viewing time</li>
+          <li>Enforcing user-configured Shorts limits</li>
+          <li>Blocking Shorts when a limit is reached</li>
+          <li>Providing additional viewing-time functionality</li>
+          <li>Blocking Shorts in connection with Focus Mode and Pomodoro</li>
+          <li>Providing Todo, Routine, Focus, and Calendar features</li>
+          <li>Synchronizing supported data across devices</li>
+          <li>Maintaining service settings and usage state</li>
+          <li>Maintaining service stability and responding to errors</li>
+        </ul>
 
         <p>
-          This communication is used to connect ShortsFree Guard with the
-          ShortsFree desktop app locally on the user's device.
-        </p>
-      </section>
-
-
-      <section>
-        <h2>4. Third-Party Sharing and Sale</h2>
-
-        <p>
-          ShortsFree Guard does not sell user data processed through the
-          browser extension to third parties.
-        </p>
-
-        <p>
-          User data is also not used for advertising, credit assessment,
-          lending, or similar purposes.
+          ShortsFREE seeks not to use user data
+          for purposes unrelated to providing the Service.
         </p>
       </section>
 
 
       <section>
-        <h2>5. Website Access</h2>
+        <h2>3. Local Storage</h2>
 
         <p>
-          ShortsFree Guard accesses the YouTube website in order to
-          provide its core functionality.
+          ShortsFREE stores certain information locally on the user's device.
         </p>
 
         <p>
-          This access is used to detect YouTube Shorts usage,
-          measure viewing time, and block Shorts according to the user's
-          configured viewing limit or Focus Mode status.
+          The desktop application uses account-specific local storage,
+          where application settings, authentication state,
+          productivity data, and other information required
+          for service functionality may be stored.
         </p>
 
         <p>
-          ShortsFree Guard does not use this permission to collect
-          browsing information unrelated to these purposes.
+          ShortsFREE Guard may also store information required for its functionality,
+          including Shorts usage time, usage date,
+          and a randomly generated extension identifier,
+          in the browser's local storage.
+        </p>
+
+        <p>
+          Local data may be used to provide ShortsFREE functionality,
+          support offline operation, and synchronize data later when appropriate.
         </p>
       </section>
 
 
       <section>
-        <h2>6. Browser Permissions</h2>
+        <h2>4. Cloud Sync</h2>
+
+        <p>
+          ShortsFREE provides account-based Cloud Sync
+          so signed-in users can continue supported records across devices.
+        </p>
+
+        <p>
+          Depending on the current implementation,
+          synchronized information may include:
+        </p>
+
+        <ul>
+          <li>Todo and Routine information</li>
+          <li>Default Pomodoro settings</li>
+          <li>Completed Focus sessions and focus results</li>
+          <li>Shorts usage time and account-wide Guard-related information</li>
+        </ul>
+
+        <p>
+          Certain real-time states, including the current timer,
+          remaining time, paused state, current focus session,
+          and Focus Mode, may remain device-local.
+        </p>
+
+        <p>
+          If a network connection is temporarily unavailable,
+          some changes may first be stored locally
+          and synchronized after connectivity is restored.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>5. Communication Between the Browser Extension and Desktop App</h2>
+
+        <p>
+          ShortsFREE Guard and the ShortsFREE desktop application
+          may exchange information to provide Shorts Guard functionality.
+        </p>
+
+        <p>
+          When the desktop application is running,
+          information such as Shorts usage time and Guard state
+          may be exchanged through a local server running on
+          the user's device at <strong>127.0.0.1</strong>.
+        </p>
+
+        <p>
+          This communication is used to connect ShortsFREE Guard
+          with the ShortsFREE desktop application on the same device.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>6. Browser Extension Permissions</h2>
+
+        <p>
+          ShortsFREE Guard uses browser permissions
+          only to the extent necessary to provide its core functionality.
+        </p>
+
+        <div class="permission">
+          <strong>tabs</strong>
+          Used as necessary to detect YouTube Shorts usage
+          and provide Shorts Guard functionality.
+        </div>
 
         <div class="permission">
           <strong>scripting</strong>
@@ -592,72 +937,174 @@
 
         <div class="permission">
           <strong>storage</strong>
-          Used to store state required for the extension's functionality
-          in the user's browser, including Shorts usage time, date, and the
-          randomly generated extension identifier.
+          Used to store state required for the extension's functionality,
+          including Shorts usage time, date,
+          and the randomly generated extension identifier.
         </div>
 
         <div class="permission">
           <strong>YouTube host permission</strong>
-          Used to detect YouTube Shorts pages and provide
-          Shorts Guard functionality.
+          Used to detect YouTube Shorts pages,
+          measure Shorts usage,
+          and provide Shorts Guard functionality.
         </div>
 
         <div class="permission">
           <strong>localhost host permission</strong>
-          Used to synchronize Shorts usage time and Guard state with the
-          ShortsFree desktop app running on the user's device.
+          Used to synchronize Shorts usage time and Guard state
+          with the ShortsFREE desktop application running on the user's device.
+        </div>
+
+        <p>
+          ShortsFREE Guard does not use these permissions
+          to collect browsing information unrelated to these purposes.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>7. Third-Party Services</h2>
+
+        <p>
+          ShortsFREE may use third-party service providers
+          to operate certain parts of the Service.
+        </p>
+
+        <h3>Supabase</h3>
+
+        <p>
+          ShortsFREE may use Supabase to provide user authentication,
+          account-based data storage, and Cloud Sync.
+        </p>
+
+        <p>
+          Information processed by third-party service providers
+          may also be subject to their applicable privacy policies
+          and service terms.
+        </p>
+
+        <div class="notice">
+          <p>
+            Payment functionality is currently being developed separately.
+            Once a payment provider and payment-data processing method are finalized,
+            this Privacy Policy will be updated accordingly.
+          </p>
         </div>
       </section>
 
 
       <section>
-        <h2>7. Remote Code</h2>
+        <h2>8. Third-Party Sharing and Sale</h2>
 
         <p>
-          ShortsFree Guard does not download and execute JavaScript,
+          ShortsFREE does not sell user data.
+        </p>
+
+        <p>
+          User data is not used for advertising,
+          credit assessment, lending, or similar purposes.
+        </p>
+
+        <p>
+          Where an external service provider processes information
+          as part of providing the Service,
+          processing is intended to be limited to what is necessary
+          for that purpose.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>9. Remote Code</h2>
+
+        <p>
+          ShortsFREE Guard does not download and execute JavaScript,
           WebAssembly, or other executable code from remote servers.
         </p>
 
         <p>
-          All executable extension code is included in the distributed
-          extension package.
+          Executable browser-extension code is included
+          in the distributed extension package.
         </p>
       </section>
 
 
       <section>
-        <h2>8. Data Security</h2>
+        <h2>10. Data Retention and Deletion</h2>
 
         <p>
-          ShortsFree limits the information processed by ShortsFree Guard
-          to what is necessary to provide its core functionality and seeks
-          to avoid collecting unnecessary user information.
+          ShortsFREE may retain local and account-based data
+          to the extent necessary to provide the Service.
+        </p>
+
+        <p>
+          Local data may be stored on the user's device or browser
+          and may be removed by uninstalling the relevant application or extension,
+          deleting local data, or through other supported methods.
+        </p>
+
+        <p>
+          Specific retention periods for Cloud Sync and account data,
+          as well as procedures for account deletion and server-side data deletion,
+          may be added or updated in this Privacy Policy
+          as the production service policy is finalized.
+        </p>
+
+        <p>
+          Where applicable law requires certain information
+          to be retained for a specific period,
+          that information may be handled as required by law.
         </p>
       </section>
 
 
       <section>
-        <h2>9. Changes to This Privacy Policy</h2>
+        <h2>11. Data Security</h2>
 
         <p>
-          This Privacy Policy may be updated if ShortsFree Guard's
-          functionality or data processing practices change.
+          ShortsFREE seeks to limit data processing
+          to what is necessary to provide the Service
+          and to avoid collecting unnecessary personal information.
         </p>
 
         <p>
-          If significant changes are made, users may be informed
-          through an appropriate method.
+          The Service is designed to maintain account-level data separation
+          and access controls so that authentication information
+          and account data are not improperly shared between users.
+        </p>
+
+        <p>
+          Security-related areas including authentication,
+          Cloud Sync, and communication between the browser extension
+          and desktop application may continue to be reviewed and improved
+          before and after public release.
         </p>
       </section>
 
 
       <section>
-        <h2>10. Contact</h2>
+        <h2>12. Changes to This Privacy Policy</h2>
 
         <p>
-          For questions regarding the processing of information by
-          ShortsFree Guard or this Privacy Policy, please contact:
+          This Privacy Policy may be updated if ShortsFREE's functionality,
+          third-party services, data-processing practices,
+          or related policies change.
+        </p>
+
+        <p>
+          If significant changes are made,
+          users may be informed through the website
+          or another appropriate method.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>13. Contact</h2>
+
+        <p>
+          For questions regarding the processing of information by ShortsFREE
+          or this Privacy Policy, please contact:
         </p>
 
         <p>
@@ -672,7 +1119,7 @@
 
 
     <footer>
-      © 2026 ShortsFree. All rights reserved.
+      © 2026 ShortsFREE. All rights reserved.
     </footer>
 
   </main>
@@ -694,7 +1141,7 @@
         englishButton.classList.add("active");
 
         document.documentElement.lang = "en";
-        document.title = "Privacy Policy | ShortsFree Guard";
+        document.title = "Privacy Policy | ShortsFREE";
       } else {
         koreanContent.style.display = "block";
         englishContent.style.display = "none";
@@ -703,7 +1150,7 @@
         englishButton.classList.remove("active");
 
         document.documentElement.lang = "ko";
-        document.title = "개인정보처리방침 | ShortsFree Guard";
+        document.title = "개인정보처리방침 | ShortsFREE";
       }
     }
   </script>
